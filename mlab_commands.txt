@@ -1,0 +1,7 @@
+mongo ds143738.mlab.com:43738/node-restaurants-app -u restaurant_user -p user01
+
+mongodb://restaurant_user:user01@ds143738.mlab.com:43738/node-restaurants-app
+
+mongoimport -h ds143738.mlab.com:43738 -d node-restaurants-app -c restaurants -u restaurant_user -p user01 --file C:\Users\owner\Desktop\Thinkful\Thinkful_projects\Mongo_demo\primer-dataset.json
+
+mongoimport -h ds113795.mlab.com:13795 -d my-first-mlab-db -c <collection> -u <user> -p <password> --file <input file>
